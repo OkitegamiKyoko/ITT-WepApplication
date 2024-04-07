@@ -53,10 +53,6 @@
 .logos-school li, .menu-basic li{
     display: inline-block;
 }
-.logos-school li a{
-    display: block;
-    height: 80px;
-}
 .logos-school li a img{
     object-fit: contain;
     width: 100%;
