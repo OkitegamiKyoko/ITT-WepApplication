@@ -1,8 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-.header-gob{
-    width: 100%;
-    background-color: #343a40;
-}
 body{
     margin: 0;
 }
@@ -13,4 +9,29 @@ body{
     word-wrap: break-word;
     margin: 0;
     padding: 0;
+}
+.container{
+	width:100%;
+	max-width: 1200px;
+	margin:auto;
+}
+/*Tablets*/
+@media (max-width:1200px){
+    .container{
+		max-width:1000px;
+    }
+}
+/*Tablet Portrait*/
+@media (max-width:768px){
+    .container{
+        min-width:320px;
+		max-width:700px;
+    }
+}
+/*Phone*/
+@media (max-width:640px){
+    .container{
+        min-width:320px;
+		max-width:500px;
+    }
 }

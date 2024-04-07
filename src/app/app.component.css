@@ -4,6 +4,8 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 10px 0 10px;
+    width: 100%;
+    background-color: #343a40;
 }
 .gob-container-logo{
     width: 25%;
@@ -38,4 +40,46 @@
 
 .padding-5px{
     padding: 5px;
+}
+.logos-header-school{
+    padding: 10px 0;
+    width: auto;
+    float: left;
+}
+.logos-school{
+    list-style: none;
+    vertical-align: middle;
+}
+.logos-school li, .menu-basic li{
+    display: inline-block;
+}
+.logos-school li a{
+    display: block;
+    height: 80px;
+}
+.logos-school li a img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.round-icon{
+    background-color: #1b396a;
+    color: white;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.menu-basic{
+    list-style: none;
+    text-align: right;
+}
+.school-menu-basic{
+    float: right;
+    align-items: center;
+    display: flex;
+    height: 100px;
 }
