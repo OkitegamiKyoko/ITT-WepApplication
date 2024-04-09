@@ -1,8 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-body{
+body {
     margin: 0;
 }
-*{
+
+* {
     font-family: Roboto, "Open Sans", sans-serif;
     text-decoration: none;
     box-sizing: border-box;
@@ -10,36 +11,52 @@ body{
     margin: 0;
     padding: 0;
 }
-.container{
-	width:100%;
-	max-width: 1200px;
-	margin:auto;
+
+.text-white {
+    color: white;
 }
-.logos-school li a{
-    display: block;
-    height: 80px;
+
+.text-black {
+    color: black;
 }
+
+.relative{
+    position: relative;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flow-root;
+}
+
+.cursor-default{
+    cursor: default;
+}
+
 /*Tablets*/
-@media (max-width:1200px){
-    .container{
-		max-width:1000px;
+@media (max-width:1200px) {
+    .container {
+        max-width: 1000px;
     }
-    .logos-school li a{
+
+    .logos-school li a {
         display: block;
         height: 45px;
     }
 }
+
 /*Tablet Portrait*/
-@media (max-width:768px){
-    .container{
-        min-width:320px;
-		max-width:700px;
+@media (max-width:768px) {
+    .container {
+        min-width: 320px;
+        max-width: 700px;
     }
 }
+
 /*Phone*/
-@media (max-width:640px){
-    .container{
-        min-width:320px;
-		max-width:500px;
+@media (max-width:640px) {
+    .container {
+        min-width: 320px;
+        max-width: 500px;
     }
 }
